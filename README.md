@@ -1,2 +1,2 @@
 # MIOptique
-Projet d'application dans le cadre du projet d'informatique du master MIO
+Projet d'application dans le cadre du cours d'informatique du master MIO
