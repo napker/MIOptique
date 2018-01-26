@@ -13,6 +13,7 @@ Window::Window(QWidget *parent) :
 	int wbutton = 80, hbutton = 30;
 	int xbutton = (width-wbutton)/2, ybutton = (height-hbutton)/2;
 	m_button->setGeometry(xbutton, ybutton, wbutton, hbutton);
+	connect(m_button, SIGNAL (clicked()), QApplication::instance(), SLOT (quit()));
 	//m_button->setGeometry(0, 0, 0, 0);
 }
 
